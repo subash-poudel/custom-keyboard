@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EED85A1A1DF8CA0038C6AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EED8591A1DF8CA0038C6AC /* AppDelegate.swift */; };
+		84EED85C1A1DF8CA0038C6AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EED85B1A1DF8CA0038C6AC /* ViewController.swift */; };
+		84EED85F1A1DF8CA0038C6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EED85D1A1DF8CA0038C6AC /* Main.storyboard */; };
+		84EED8611A1DF8CA0038C6AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EED8601A1DF8CA0038C6AC /* Images.xcassets */; };
+		84EED8641A1DF8CA0038C6AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EED8621A1DF8CA0038C6AC /* LaunchScreen.xib */; };
+		84EED8701A1DF8CA0038C6AC /* MySmipleKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EED86F1A1DF8CA0038C6AC /* MySmipleKeyboardTests.swift */; };
+		84EED8821A1DF90B0038C6AC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EED8811A1DF90B0038C6AC /* KeyboardViewController.swift */; };
+		84EED8851A1DF90B0038C6AC /* SeattleKeyBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84EED87D1A1DF90B0038C6AC /* SeattleKeyBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84EED88D1A1DF9550038C6AC /* KeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EED88C1A1DF9550038C6AC /* KeyBoardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EED86A1A1DF8CA0038C6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EED84C1A1DF8CA0038C6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EED8531A1DF8CA0038C6AC;
+			remoteInfo = MySmipleKeyboard;
+		};
+		84EED8831A1DF90B0038C6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EED84C1A1DF8CA0038C6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EED87C1A1DF90B0038C6AC;
+			remoteInfo = SeattleKeyBoard;
+		};
+		84EED8861A1DF90B0038C6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EED84C1A1DF8CA0038C6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EED87C1A1DF90B0038C6AC;
+			remoteInfo = SeattleKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84EED88B1A1DF90B0038C6AC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84EED8851A1DF90B0038C6AC /* SeattleKeyBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84EED8541A1DF8CA0038C6AC /* MySmipleKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySmipleKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EED8581A1DF8CA0038C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EED8591A1DF8CA0038C6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EED85B1A1DF8CA0038C6AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EED85E1A1DF8CA0038C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EED8601A1DF8CA0038C6AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84EED8631A1DF8CA0038C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84EED8691A1DF8CA0038C6AC /* MySmipleKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySmipleKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EED86E1A1DF8CA0038C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EED86F1A1DF8CA0038C6AC /* MySmipleKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmipleKeyboardTests.swift; sourceTree = "<group>"; };
+		84EED87D1A1DF90B0038C6AC /* SeattleKeyBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SeattleKeyBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EED8801A1DF90B0038C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EED8811A1DF90B0038C6AC /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		84EED88C1A1DF9550038C6AC /* KeyBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EED8511A1DF8CA0038C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED8661A1DF8CA0038C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED87A1A1DF90B0038C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EED84B1A1DF8CA0038C6AC = {
+			isa = PBXGroup;
+			children = (
+				84EED8561A1DF8CA0038C6AC /* MySmipleKeyboard */,
+				84EED86C1A1DF8CA0038C6AC /* MySmipleKeyboardTests */,
+				84EED87E1A1DF90B0038C6AC /* SeattleKeyBoard */,
+				84EED8551A1DF8CA0038C6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EED8551A1DF8CA0038C6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EED8541A1DF8CA0038C6AC /* MySmipleKeyboard.app */,
+				84EED8691A1DF8CA0038C6AC /* MySmipleKeyboardTests.xctest */,
+				84EED87D1A1DF90B0038C6AC /* SeattleKeyBoard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EED8561A1DF8CA0038C6AC /* MySmipleKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84EED8591A1DF8CA0038C6AC /* AppDelegate.swift */,
+				84EED85B1A1DF8CA0038C6AC /* ViewController.swift */,
+				84EED85D1A1DF8CA0038C6AC /* Main.storyboard */,
+				84EED8601A1DF8CA0038C6AC /* Images.xcassets */,
+				84EED8621A1DF8CA0038C6AC /* LaunchScreen.xib */,
+				84EED8571A1DF8CA0038C6AC /* Supporting Files */,
+			);
+			path = MySmipleKeyboard;
+			sourceTree = "<group>";
+		};
+		84EED8571A1DF8CA0038C6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EED8581A1DF8CA0038C6AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EED86C1A1DF8CA0038C6AC /* MySmipleKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EED86F1A1DF8CA0038C6AC /* MySmipleKeyboardTests.swift */,
+				84EED86D1A1DF8CA0038C6AC /* Supporting Files */,
+			);
+			path = MySmipleKeyboardTests;
+			sourceTree = "<group>";
+		};
+		84EED86D1A1DF8CA0038C6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EED86E1A1DF8CA0038C6AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EED87E1A1DF90B0038C6AC /* SeattleKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				84EED88C1A1DF9550038C6AC /* KeyBoardView.xib */,
+				84EED8811A1DF90B0038C6AC /* KeyboardViewController.swift */,
+				84EED87F1A1DF90B0038C6AC /* Supporting Files */,
+			);
+			path = SeattleKeyBoard;
+			sourceTree = "<group>";
+		};
+		84EED87F1A1DF90B0038C6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EED8801A1DF90B0038C6AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EED8531A1DF8CA0038C6AC /* MySmipleKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EED8731A1DF8CA0038C6AC /* Build configuration list for PBXNativeTarget "MySmipleKeyboard" */;
+			buildPhases = (
+				84EED8501A1DF8CA0038C6AC /* Sources */,
+				84EED8511A1DF8CA0038C6AC /* Frameworks */,
+				84EED8521A1DF8CA0038C6AC /* Resources */,
+				84EED88B1A1DF90B0038C6AC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EED8841A1DF90B0038C6AC /* PBXTargetDependency */,
+				84EED8871A1DF90B0038C6AC /* PBXTargetDependency */,
+			);
+			name = MySmipleKeyboard;
+			productName = MySmipleKeyboard;
+			productReference = 84EED8541A1DF8CA0038C6AC /* MySmipleKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EED8681A1DF8CA0038C6AC /* MySmipleKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EED8761A1DF8CA0038C6AC /* Build configuration list for PBXNativeTarget "MySmipleKeyboardTests" */;
+			buildPhases = (
+				84EED8651A1DF8CA0038C6AC /* Sources */,
+				84EED8661A1DF8CA0038C6AC /* Frameworks */,
+				84EED8671A1DF8CA0038C6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EED86B1A1DF8CA0038C6AC /* PBXTargetDependency */,
+			);
+			name = MySmipleKeyboardTests;
+			productName = MySmipleKeyboardTests;
+			productReference = 84EED8691A1DF8CA0038C6AC /* MySmipleKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EED87C1A1DF90B0038C6AC /* SeattleKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EED8881A1DF90B0038C6AC /* Build configuration list for PBXNativeTarget "SeattleKeyBoard" */;
+			buildPhases = (
+				84EED8791A1DF90B0038C6AC /* Sources */,
+				84EED87A1A1DF90B0038C6AC /* Frameworks */,
+				84EED87B1A1DF90B0038C6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeattleKeyBoard;
+			productName = SeattleKeyBoard;
+			productReference = 84EED87D1A1DF90B0038C6AC /* SeattleKeyBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EED84C1A1DF8CA0038C6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Subash;
+				TargetAttributes = {
+					84EED8531A1DF8CA0038C6AC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					84EED8681A1DF8CA0038C6AC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 84EED8531A1DF8CA0038C6AC;
+					};
+					84EED87C1A1DF90B0038C6AC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 84EED84F1A1DF8CA0038C6AC /* Build configuration list for PBXProject "MySmipleKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EED84B1A1DF8CA0038C6AC;
+			productRefGroup = 84EED8551A1DF8CA0038C6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EED8531A1DF8CA0038C6AC /* MySmipleKeyboard */,
+				84EED8681A1DF8CA0038C6AC /* MySmipleKeyboardTests */,
+				84EED87C1A1DF90B0038C6AC /* SeattleKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EED8521A1DF8CA0038C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EED85F1A1DF8CA0038C6AC /* Main.storyboard in Resources */,
+				84EED8641A1DF8CA0038C6AC /* LaunchScreen.xib in Resources */,
+				84EED8611A1DF8CA0038C6AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED8671A1DF8CA0038C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED87B1A1DF90B0038C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EED88D1A1DF9550038C6AC /* KeyBoardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EED8501A1DF8CA0038C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EED85C1A1DF8CA0038C6AC /* ViewController.swift in Sources */,
+				84EED85A1A1DF8CA0038C6AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED8651A1DF8CA0038C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EED8701A1DF8CA0038C6AC /* MySmipleKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EED8791A1DF90B0038C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EED8821A1DF90B0038C6AC /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EED86B1A1DF8CA0038C6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EED8531A1DF8CA0038C6AC /* MySmipleKeyboard */;
+			targetProxy = 84EED86A1A1DF8CA0038C6AC /* PBXContainerItemProxy */;
+		};
+		84EED8841A1DF90B0038C6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EED87C1A1DF90B0038C6AC /* SeattleKeyBoard */;
+			targetProxy = 84EED8831A1DF90B0038C6AC /* PBXContainerItemProxy */;
+		};
+		84EED8871A1DF90B0038C6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EED87C1A1DF90B0038C6AC /* SeattleKeyBoard */;
+			targetProxy = 84EED8861A1DF90B0038C6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EED85D1A1DF8CA0038C6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EED85E1A1DF8CA0038C6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EED8621A1DF8CA0038C6AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EED8631A1DF8CA0038C6AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EED8711A1DF8CA0038C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EED8721A1DF8CA0038C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EED8741A1DF8CA0038C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySmipleKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EED8751A1DF8CA0038C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySmipleKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84EED8771A1DF8CA0038C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MySmipleKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySmipleKeyboard.app/MySmipleKeyboard";
+			};
+			name = Debug;
+		};
+		84EED8781A1DF8CA0038C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MySmipleKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySmipleKeyboard.app/MySmipleKeyboard";
+			};
+			name = Release;
+		};
+		84EED8891A1DF90B0038C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeattleKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84EED88A1A1DF90B0038C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeattleKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EED84F1A1DF8CA0038C6AC /* Build configuration list for PBXProject "MySmipleKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EED8711A1DF8CA0038C6AC /* Debug */,
+				84EED8721A1DF8CA0038C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EED8731A1DF8CA0038C6AC /* Build configuration list for PBXNativeTarget "MySmipleKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EED8741A1DF8CA0038C6AC /* Debug */,
+				84EED8751A1DF8CA0038C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EED8761A1DF8CA0038C6AC /* Build configuration list for PBXNativeTarget "MySmipleKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EED8771A1DF8CA0038C6AC /* Debug */,
+				84EED8781A1DF8CA0038C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EED8881A1DF90B0038C6AC /* Build configuration list for PBXNativeTarget "SeattleKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EED8891A1DF90B0038C6AC /* Debug */,
+				84EED88A1A1DF90B0038C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EED84C1A1DF8CA0038C6AC /* Project object */;
+}
